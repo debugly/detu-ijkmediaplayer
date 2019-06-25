@@ -3555,9 +3555,9 @@ void ffp_global_init()
 
     /* register all codecs, demux and protocols */
     avcodec_register_all();
-#if CONFIG_AVDEVICE
-    avdevice_register_all();
-#endif
+//#if CONFIG_AVDEVICE
+//    avdevice_register_all();
+//#endif
 #if CONFIG_AVFILTER
     avfilter_register_all();
 #endif

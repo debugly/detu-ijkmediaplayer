@@ -97,6 +97,7 @@ void func_state_change(void* opaque, IjkMsgState ijk_msgint, int arg1, int arg2)
     path = @"http://media.detu.com/@/41020711-1591-C3CD-78FA-FB2F67437049/2017-06-05/593590081a66b-2048x1024.m3u8";
     path = @"/Users/chao/Desktop/穿梭在法国小镇_injected.mp4";
     path = @"/Users/chao/Downloads/xihu_cut.mp4";
+    path = @"http://10.7.36.50/ifox/m3u8/996089-5411445-31.m3u8";
     //path = @"/Users/chao/Downloads/IMG_0728.MP4";
     //path = @"/Users/chao/Downloads/pano/tb402.MP4";
     //path = @"/Users/chao/Downloads/4.09婚礼现场版.mp4";

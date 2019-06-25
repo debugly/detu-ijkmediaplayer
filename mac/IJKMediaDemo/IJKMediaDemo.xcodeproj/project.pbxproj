@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD9B12E022C2132D002D1D79 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9B12DA22C2132C002D1D79 /* libswresample.a */; };
+		DD9B12E122C2132D002D1D79 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9B12DB22C2132D002D1D79 /* libswscale.a */; };
+		DD9B12E222C2132D002D1D79 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9B12DC22C2132D002D1D79 /* libavformat.a */; };
+		DD9B12E322C2132D002D1D79 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9B12DD22C2132D002D1D79 /* libavfilter.a */; };
+		DD9B12E422C2132D002D1D79 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9B12DE22C2132D002D1D79 /* libavcodec.a */; };
+		DD9B12E522C2132D002D1D79 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9B12DF22C2132D002D1D79 /* libavutil.a */; };
 		E5349CD41F95E9BC00EC16D7 /* MacVideoToolBoxDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E5349CD31F95E9BC00EC16D7 /* MacVideoToolBoxDecoder.m */; };
 		E5349CDC1F95ED0700EC16D7 /* H264Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E5349CD81F95ED0700EC16D7 /* H264Utils.m */; };
 		E5349CE01F95ED7C00EC16D7 /* VideoToolBoxDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E5349CDF1F95ED7C00EC16D7 /* VideoToolBoxDecoder.m */; };
 		E5555DB81EFF92B9006B619B /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DB71EFF92B9006B619B /* libiconv.2.4.0.tbd */; };
 		E5555DBA1EFF92BE006B619B /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DB91EFF92BE006B619B /* libxml2.2.tbd */; };
 		E5555DBC1EFF92CC006B619B /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DBB1EFF92CC006B619B /* VideoDecodeAcceleration.framework */; };
-		E5555DC71EFF92FD006B619B /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DBF1EFF92FD006B619B /* libavcodec.a */; };
-		E5555DC81EFF92FD006B619B /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DC01EFF92FD006B619B /* libavdevice.a */; };
-		E5555DC91EFF92FD006B619B /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DC11EFF92FD006B619B /* libavfilter.a */; };
-		E5555DCA1EFF92FD006B619B /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DC21EFF92FD006B619B /* libavformat.a */; };
-		E5555DCB1EFF92FD006B619B /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DC31EFF92FD006B619B /* libavutil.a */; };
-		E5555DCC1EFF92FD006B619B /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DC41EFF92FD006B619B /* libglfw3.a */; };
-		E5555DCD1EFF92FD006B619B /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DC51EFF92FD006B619B /* libswresample.a */; };
-		E5555DCE1EFF92FD006B619B /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DC61EFF92FD006B619B /* libswscale.a */; };
 		E5555DD31EFF930E006B619B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DCF1EFF930E006B619B /* AudioToolbox.framework */; };
 		E5555DD41EFF930E006B619B /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DD01EFF930E006B619B /* AudioUnit.framework */; };
 		E5555DD51EFF930E006B619B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5555DD11EFF930E006B619B /* CoreAudio.framework */; };
@@ -75,6 +73,12 @@
 
 /* Begin PBXFileReference section */
 		91C738BF1CC22743003C6DC9 /* IJkMediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJkMediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9B12DA22C2132C002D1D79 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../build/universal/lib/libswresample.a; sourceTree = "<group>"; };
+		DD9B12DB22C2132D002D1D79 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../build/universal/lib/libswscale.a; sourceTree = "<group>"; };
+		DD9B12DC22C2132D002D1D79 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../build/universal/lib/libavformat.a; sourceTree = "<group>"; };
+		DD9B12DD22C2132D002D1D79 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = ../build/universal/lib/libavfilter.a; sourceTree = "<group>"; };
+		DD9B12DE22C2132D002D1D79 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../build/universal/lib/libavcodec.a; sourceTree = "<group>"; };
+		DD9B12DF22C2132D002D1D79 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../build/universal/lib/libavutil.a; sourceTree = "<group>"; };
 		E5349CD21F95E9BC00EC16D7 /* MacVideoToolBoxDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacVideoToolBoxDecoder.h; sourceTree = "<group>"; };
 		E5349CD31F95E9BC00EC16D7 /* MacVideoToolBoxDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacVideoToolBoxDecoder.m; sourceTree = "<group>"; };
 		E5349CD71F95ED0700EC16D7 /* H264Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264Utils.h; sourceTree = "<group>"; };
@@ -86,14 +90,6 @@
 		E5555DB91EFF92BE006B619B /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		E5555DBB1EFF92CC006B619B /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
 		E5555DBD1EFF92D6006B619B /* libdz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libdz.tbd; path = usr/lib/libdz.tbd; sourceTree = SDKROOT; };
-		E5555DBF1EFF92FD006B619B /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../library/libavcodec.a; sourceTree = "<group>"; };
-		E5555DC01EFF92FD006B619B /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = ../library/libavdevice.a; sourceTree = "<group>"; };
-		E5555DC11EFF92FD006B619B /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = ../library/libavfilter.a; sourceTree = "<group>"; };
-		E5555DC21EFF92FD006B619B /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../library/libavformat.a; sourceTree = "<group>"; };
-		E5555DC31EFF92FD006B619B /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../library/libavutil.a; sourceTree = "<group>"; };
-		E5555DC41EFF92FD006B619B /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../library/libglfw3.a; sourceTree = "<group>"; };
-		E5555DC51EFF92FD006B619B /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../library/libswresample.a; sourceTree = "<group>"; };
-		E5555DC61EFF92FD006B619B /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../library/libswscale.a; sourceTree = "<group>"; };
 		E5555DCF1EFF930E006B619B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E5555DD01EFF930E006B619B /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		E5555DD11EFF930E006B619B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
@@ -139,6 +135,7 @@
 				E5555DED1EFF9373006B619B /* AVFoundation.framework in Frameworks */,
 				E5555DEB1EFF936E006B619B /* GLKit.framework in Frameworks */,
 				E5555DE71EFF935E006B619B /* CoreGraphics.framework in Frameworks */,
+				DD9B12E522C2132D002D1D79 /* libavutil.a in Frameworks */,
 				E5555DE81EFF935E006B619B /* CoreMedia.framework in Frameworks */,
 				E5555DE91EFF935E006B619B /* CoreVideo.framework in Frameworks */,
 				E5555DE31EFF934C006B619B /* libz.tbd in Frameworks */,
@@ -147,20 +144,17 @@
 				E5555DDA1EFF9323006B619B /* OpenGL.framework in Frameworks */,
 				E5555DD81EFF931B006B619B /* QuartzCore.framework in Frameworks */,
 				E5555DD31EFF930E006B619B /* AudioToolbox.framework in Frameworks */,
+				DD9B12E222C2132D002D1D79 /* libavformat.a in Frameworks */,
+				DD9B12E322C2132D002D1D79 /* libavfilter.a in Frameworks */,
 				E5555DD41EFF930E006B619B /* AudioUnit.framework in Frameworks */,
 				E5555DD51EFF930E006B619B /* CoreAudio.framework in Frameworks */,
+				DD9B12E122C2132D002D1D79 /* libswscale.a in Frameworks */,
 				E5555DD61EFF930E006B619B /* CoreAudioKit.framework in Frameworks */,
-				E5555DC71EFF92FD006B619B /* libavcodec.a in Frameworks */,
-				E5555DC81EFF92FD006B619B /* libavdevice.a in Frameworks */,
-				E5555DC91EFF92FD006B619B /* libavfilter.a in Frameworks */,
-				E5555DCA1EFF92FD006B619B /* libavformat.a in Frameworks */,
-				E5555DCB1EFF92FD006B619B /* libavutil.a in Frameworks */,
-				E5555DCC1EFF92FD006B619B /* libglfw3.a in Frameworks */,
-				E5555DCD1EFF92FD006B619B /* libswresample.a in Frameworks */,
-				E5555DCE1EFF92FD006B619B /* libswscale.a in Frameworks */,
+				DD9B12E022C2132D002D1D79 /* libswresample.a in Frameworks */,
 				E5555DBC1EFF92CC006B619B /* VideoDecodeAcceleration.framework in Frameworks */,
 				E5555DBA1EFF92BE006B619B /* libxml2.2.tbd in Frameworks */,
 				E5555DB81EFF92B9006B619B /* libiconv.2.4.0.tbd in Frameworks */,
+				DD9B12E422C2132D002D1D79 /* libavcodec.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +191,12 @@
 		E5555DB61EFF92B9006B619B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD9B12DE22C2132D002D1D79 /* libavcodec.a */,
+				DD9B12DD22C2132D002D1D79 /* libavfilter.a */,
+				DD9B12DC22C2132D002D1D79 /* libavformat.a */,
+				DD9B12DF22C2132D002D1D79 /* libavutil.a */,
+				DD9B12DA22C2132C002D1D79 /* libswresample.a */,
+				DD9B12DB22C2132D002D1D79 /* libswscale.a */,
 				E5D46F681F91E5A5008EF54F /* libstdc++.tbd */,
 				E5555DFD1EFFA1A7006B619B /* libbz2.tbd */,
 				E5555DEC1EFF9373006B619B /* AVFoundation.framework */,
@@ -213,14 +213,6 @@
 				E5555DD01EFF930E006B619B /* AudioUnit.framework */,
 				E5555DD11EFF930E006B619B /* CoreAudio.framework */,
 				E5555DD21EFF930E006B619B /* CoreAudioKit.framework */,
-				E5555DBF1EFF92FD006B619B /* libavcodec.a */,
-				E5555DC01EFF92FD006B619B /* libavdevice.a */,
-				E5555DC11EFF92FD006B619B /* libavfilter.a */,
-				E5555DC21EFF92FD006B619B /* libavformat.a */,
-				E5555DC31EFF92FD006B619B /* libavutil.a */,
-				E5555DC41EFF92FD006B619B /* libglfw3.a */,
-				E5555DC51EFF92FD006B619B /* libswresample.a */,
-				E5555DC61EFF92FD006B619B /* libswscale.a */,
 				E5555DBD1EFF92D6006B619B /* libdz.tbd */,
 				E5555DBB1EFF92CC006B619B /* VideoDecodeAcceleration.framework */,
 				E5555DB91EFF92BE006B619B /* libxml2.2.tbd */,
@@ -294,11 +286,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 91C738BA1CC22743003C6DC9 /* Build configuration list for PBXProject "IJkMediaDemo" */;
+			buildConfigurationList = 91C738BA1CC22743003C6DC9 /* Build configuration list for PBXProject "IJKMediaDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -474,21 +467,17 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
 					../IJKMediaPlayer/IJKMediaPlayer/,
-					../library/IJKMediaPlayer.framework/,
-					../library/IJKMediaPlayer.framework/headers,
-					../library/,
 					../../ijkmedia,
 					../IJKMediaPlayer/IJKMediaPlayer/ijkmedia,
 					../../ijkmedia/ijksdl/ijkplayer,
 					../../ijkmedia/ijksdl/ffmpeg,
 					../../ijkmedia/ijksdl,
 					../IJKMediaPlayer/IJKMediaPlayer/ijkmedia/ijksdl/ios,
-					../library/GLFW,
-					/usr/local/Cellar/ffmpeg/3.3.2/include/libavfilter,
+					../build/universal/include,
 				);
 				INFOPLIST_FILE = IJkMediaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = ../library;
+				LIBRARY_SEARCH_PATHS = ../build/universal/lib;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_BUNDLE_IDENTIFIER = com.detu.IJKMediaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,21 +491,17 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				HEADER_SEARCH_PATHS = (
 					../IJKMediaPlayer/IJKMediaPlayer/,
-					../library/IJKMediaPlayer.framework/,
-					../library/IJKMediaPlayer.framework/headers,
-					../library/,
 					../../ijkmedia,
 					../IJKMediaPlayer/IJKMediaPlayer/ijkmedia,
 					../../ijkmedia/ijksdl/ijkplayer,
 					../../ijkmedia/ijksdl/ffmpeg,
 					../../ijkmedia/ijksdl,
 					../IJKMediaPlayer/IJKMediaPlayer/ijkmedia/ijksdl/ios,
-					../library/GLFW,
-					/usr/local/Cellar/ffmpeg/3.3.2/include/libavfilter,
+					../build/universal/include,
 				);
 				INFOPLIST_FILE = IJkMediaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				LIBRARY_SEARCH_PATHS = ../library;
+				LIBRARY_SEARCH_PATHS = ../build/universal/lib;
 				OTHER_LDFLAGS = "-lz";
 				PRODUCT_BUNDLE_IDENTIFIER = com.detu.IJKMediaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -526,7 +511,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		91C738BA1CC22743003C6DC9 /* Build configuration list for PBXProject "IJkMediaDemo" */ = {
+		91C738BA1CC22743003C6DC9 /* Build configuration list for PBXProject "IJKMediaDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				91C738CE1CC22743003C6DC9 /* Debug */,

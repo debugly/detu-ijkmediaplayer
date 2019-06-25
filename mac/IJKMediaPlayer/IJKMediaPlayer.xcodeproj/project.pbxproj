@@ -846,6 +846,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E5580AC71EEC0C87001BEA47;
@@ -1074,7 +1075,7 @@
 				FRAMEWORK_VERSION = A;
 				HEADER_SEARCH_PATHS = (
 					../../ijkmedia,
-					../library,
+					../build/universal/include,
 					IJKMediaPlayer/ijkmedia,
 				);
 				INFOPLIST_FILE = IJKMediaPlayer/Info.plist;
@@ -1100,7 +1101,7 @@
 				FRAMEWORK_VERSION = A;
 				HEADER_SEARCH_PATHS = (
 					../../ijkmedia,
-					../library,
+					../build/universal/include,
 					IJKMediaPlayer/ijkmedia,
 				);
 				INFOPLIST_FILE = IJKMediaPlayer/Info.plist;
